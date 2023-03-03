@@ -1,1 +1,85 @@
+<!--SAMPLE CODE FOR EVENTS AND JOB SEARCH PAGE-->
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <!-- Title -->
+        <title>MMU Student Website</title>
+
+        <!-- Required Meta Tags Always Come First -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+      <!--IMPORTANT PART OF THE CSS-->>
+    <link rel="stylesheet" type="text/css" href="https://cdn.sums.su/ma-assets/css/style.css"/>
+
+    <!--START OF THE CSS-->
+<style>
+
+.eventslist .date time span.rest {
+    display: block;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+.eventslist .date time span.day {
+    display: block;
+    font-size: 40px;
+    line-height: 35px;
+}
+
+.details h3 {
+    font-size: 25px;
+}
+    
+.buttons a {
+    text-align: center;
+    background-color: #000;
+}
+    
+.buttons a::before {
+    display:none;
+}
+
+  </style>
+
+
+  <section class="eventslist">
+    <div class="container width_1140">
+      <div class="content">
+        <h1>What's happening near you?</h1>
+        <p>If you're a student looking to improve your computing skills, network with other professionals in the industry, or gain exposure to new technologies, then you've come to the right place. We've compiled a list of upcoming events in Manchester that you won't want to miss. From workshops and seminars to hackathons and competitions, there's something for everyone. So, take a look around and discover the exciting opportunities waiting for you!</p>
+      		                
+						<div class="event"> 
+                          <!--html for the picture to stay on one side-->    
+                        	<div class="img" style="height:100px; width: 150px; padding-top: 50px;">
+                                                                    <img src="https://corporateofficeheadquarters.org/wp-content/uploads/2019/12/Eventbrite.png" alt="Concorde Tech and Cyber Summit 2023">
+                                                          	</div>
+                          <!--html for the date to appear in a certain style-->
+                            <div class="date one">
+                              	<div class="middle">
+                                     <time datetime="2023-03-02 17:00">
+                                         <span class="rest">12:00-16:00</span> 
+                                       	 <span class="day">22</span>
+                                         <span class="rest">Mar, 2023</span>
+                                     </time>
+                                 </div>
+                            </div>
+                          <!--The title of the event-->          
+                            <div class="details">
+                              <div class="middle">
+                                <a style="color:#000"></a><h3> Concorde Tech and Cyber Summit 2023</h3>
+                              	<p>Explore the latest tech trends and evolving cyber threat landscape, how this is impacting businesses in the UK, and steps you can implement to protect your business from cybercrime.</p>
+                              </div>
+                            </div>
+                          <!--Find out more button-->         
+                            <div class="buttons">
+                                <a href="https://www.eventbrite.co.uk/e/concorde-tech-and-cyber-summit-2023-tickets-466305571517?aff=ebdssbdestsearch" alt="button to find out more about the event">Find Out More</a>
+                            </div>           
+                        </div>
+    </div>
+</section>
+
+</body>
+</html> 
