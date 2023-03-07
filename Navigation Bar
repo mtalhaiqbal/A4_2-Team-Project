@@ -49,3 +49,7 @@
 .menu li {
     padding: 5px 14px;
 }
+
+li {
+    list-style: none;
+}
